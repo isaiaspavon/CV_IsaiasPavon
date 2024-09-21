@@ -1,6 +1,4 @@
-# isaiaspavon.github.io-cv
-
-### Isaias Pavon's CV
+# Isaias Pavon's CV
 
 https://isaiaspavon.github.io/CV_IsaiasPavon/
 
