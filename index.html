@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&family=Nanum+Gothic+Coding:wght@400;700&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
     <title>Isaias Pavon</title>
 </head>
 <body>
@@ -16,62 +18,76 @@
 </nav>
 <section class="splash">
     <h1>Isaias Pavon</h1>
-    <img src="images/IMG_2090.jpg" width="104" height="142" alt="Picture of Isaias Pavon">
+    <img src="images/IMG_2090.jpg" alt="Headshot" class="headshot">
     <p>150 W Broad St. &bull; (706)-594-5179 &bull; isaiaspavon22@gmail.com</p>
-    <p>Fourth year CS student with experience in back-end software development and personal experience in front-end development. Looking for a role to grow and learn from experienced team members.</p>
+    <p class="tagline">Fourth year CS student with experience in back-end software development and personal experience in front-end development. Looking for a role to grow and learn from experienced team members.</p>
 </section>
 <hr>
-<section>
+<section class="education">
     <h2>Education</h2>
-    <p>University of Georgia, Computer Science. Graduating: May 2025. Major GPA: 3.35. Relavent Courses: Software Development, Systems Programming, Web Programming, Data Structures, Computer Architecture</p>
+    <p>
+        <strong>School:</strong>
+        University of Georgia, Franklin College of Arts and Sciences - Athens, GA Graduation: May 2025.
+        <strong>Major:</strong>    
+        B.S. Computer Science. 
+        <strong>GPA:</strong>
+        Major GPA: 3.35. 
+        <strong>Courses:</strong>
+        Relavent Courses: Software Development, Systems Programming, Web Programming, Data Structures, Computer Architecture
+        <a href="https://computing.uga.edu/" target="_blank"><img src=images/ugaLogo.png alt="UGA Logo" class="uga-img"></a>
+    </p>
 </section>
-<section>
+<section class="awards">
     <h2>Honors and Awards</h2>
     <dl>
         <dt>Hope Scholarship Recipient</dt>
         <dd>August, 2020-2025</dd>
         <dt>Doyle Fund Scholarship Recipient</dt>
         <dd>August, 2024-2025</dd>
+        <a href="https://honors.uga.edu/" target="_blank"><img src=images/honors.png alt="Award Clipart" class="award-img"></a>
     </dl>
 </section>
-<section>
+<section class="skills">
     <h2>Skills</h2>
     <ul>
-        <li>Programming Languages: Java, C, HTML, JavaScript</li>
-        <li>Frameworks: React, Node.js</li>
-        <li>Software: Git, VS Code, Emacs, mobaXterm, Shell</li>
+        <li><strong>Programming Languages:</strong> Java, C, HTML, JavaScript</li>
+        <li><strong>Frameworks:</strong> React, Node.js</li>
+        <li><strong>Software:</strong> Git, VS Code, Emacs, mobaXterm, Shell</li>
+        <a href="https://github.com/isaiaspavon" target="_blank"><img src=images/github.png alt="GitHub Logo" class="git-img"></a>
     </ul>
 </section>
-<section>
+<section class="experiences">
     <h2>Leadership and Experience</h2>
     <dl>
-        <dt>International Collegiate Programming Contest</dt>
+        <dt><a href="https://computing.uga.edu/news/stories/2024/soc-students-win-1st-and-3rd-icpc" target="_blank">International Collegiate Programming Contest</a></dt>
         <dd>February 24th, 2024</dd>
         <a href="https://ugahacks.com/">UGA Hacks</a>
         <dd>February 9th-11th, 2024</dd>
     </dl>
 </section>
-<section>
+<section class="projects">
     <h2>Projects</h2>
     <div class="three-col">
         <div class="card">
-            <img src="images/seatgeek.jpg" alt="SeatGeek and Last.fm API project">
-            <h3>SeatGeek API and Last.fm API Concert Finding App</h3>
+            <img src="images/seatgeek.jpg" alt="Concert Finding App" class="seatgeek-img">
+            <h3>Concert Finding App</h3>
             <ul>
-                <li>Developed a user-friendly application to query for artists using the Last.fm API and locate concerts using the SeatGeek API</li>
-                <li>Implemented using JavaFX on Emacs shell terminal and Git</li>
+                <li>Developed a user-friendly application combining 2 RESTful JSON API’s to locate concerts and events in Java</li>
+                <li>Integrated the Last.fm API to query for artists and pipelined the process into the SeatGeek API to display an upcoming event for the artist</li>
+                <li>Implemented using Java and demonstrated proficiency in navigating Git on the Shell terminal language</li>
             </ul>
         </div>
         <div class="card">
-            <img src="images/reporting.jpg" alt="Local Reporting Website">
-            <h3>Local Reporting Web Application</h3>
+            <img src="images/reporting.jpg" alt="Local Reporting Website" class="reporting-img">
+            <h3>Local City Reporting Web Application</h3>
             <ul>
-                <li>Collaborated on a full-stack website to report local crime or request emergency services</li>
-                <li>Implemented the Google Maps API and developed it using React, HTML, CSS, and JavaScript</li>
+                <li>Collaborated in a team of 4 to create a web application for reporting crime or requesting emergency services on UGA campus and in Athens</li>
+                <li>Integrated the Google Maps API into a web application to facilitate locale for emergency services</li>
+                <li>Implemented using full-stack development and RESTful API architecture to ensure real-time location based reporting and emergency requests</li>
             </ul>
         </div>
         <div class="card">
-            <img src="images/assemblyAI.jpg" alt="Voice Recognition AI Software">
+            <img src="images/assemblyAI.jpg" alt="Voice Recognition AI Software" class="assembly-img">
             <h3>Voice Recognition AI Software</h3>
             <ul>
                 <li>Developed a voice recognition software in Java integrating AssemblyAI for real-time transcription and AI/ML driven text-to-speech, deepening expertise in AI and API integration</li>
@@ -82,7 +98,10 @@
     </div>
 </section>
 <footer>
-    &copy; <a href="contact.html">Isaias Pavon</a> &bull;  <i class="fab fa-linkedin"></i>   <a href="https://www.linkedin.com/in/isaias-pavon-8955a51aa/">LinkedIn</a>  
+    &#169; 
+    <a href="contact.html">Isaias Pavon</a> 
+    &#10625;  <i class="fab fa-linkedin"></i>   
+    <a href="https://www.linkedin.com/in/isaias-pavon-8955a51aa/">LinkedIn</a>  
 </footer>
 </body>
 </html>
