@@ -1,5 +1,9 @@
 body {
-    margin: none;
+    margin: 0;
+    background-color: #fecdd3;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 nav {
